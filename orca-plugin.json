@@ -7,7 +7,7 @@
   "execution": "data",
   "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
   "license": "GPL-3.0",
-  "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
+  "repository": "https://github.com/Sumonta056/orca-midnight-dev",
   "engines": {
     "orca": ">=1.4.246"
   },

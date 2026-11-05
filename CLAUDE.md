@@ -1,6 +1,6 @@
 # Midnight Dev with Rich Syntax
 
-An Orca plugin (`execution: "data"`, nothing runs): a Monokai-style app theme, a terminal theme and TextMate grammars for Java, Vue, Go, Python, C and C++. Colors derive from Bearded Theme Monokai Reversed. Published at github.com/Sumonta056/orca-monokai-midnight; the community catalog lists it from the `orca-plugin` topic and each `v*` tag.
+An Orca plugin (`execution: "data"`, nothing runs): a Monokai-style app theme, a terminal theme and TextMate grammars for Java, Vue, Go, Python, C and C++. Colors derive from Bearded Theme Monokai Reversed. Published at github.com/Sumonta056/orca-midnight-dev; the community catalog lists it from the `orca-plugin` topic and each `v*` tag.
 
 ## Invariants
 
