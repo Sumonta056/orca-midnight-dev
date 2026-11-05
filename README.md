@@ -1,16 +1,16 @@
-# Monokai Midnight
+# Midnight Dev with Rich Syntax
 
 A dark Monokai theme for [Orca](https://www.onorca.dev/): an app theme (interface and code colors), a matching terminal theme, and full TextMate grammars for **Java**, **Vue**, **Go**, **Python**, **C** and **C++**. The editor is darker than the sidebars. It is based on [Bearded Theme](https://github.com/BeardedBear/bearded-theme) **Monokai Reversed**, with darker backgrounds.
 
-![Monokai Midnight in Orca](images/cover.png)
+![Midnight Dev in Orca](images/cover.png)
 
 Requires Orca 1.4.246 or later.
 
 ## Use it
 
-1. Install **Monokai Midnight** from **Settings → Plugins** (community catalog).
-2. In **Settings → Appearance**, choose **Monokai Midnight** as the dark theme.
-3. In **Settings → Terminal**, choose **Monokai Midnight Terminal**.
+1. Install **Midnight Dev with Rich Syntax** from **Settings → Plugins** (community catalog).
+2. In **Settings → Appearance**, choose **Midnight Dev** as the dark theme.
+3. In **Settings → Terminal**, choose **Midnight Dev Terminal**.
 4. Open a `.java`, `.vue`, `.go`, `.py`, `.c` or `.cpp` file. The plugin's grammars color it. See [Languages](#languages).
 5. If another plugin also claims `.vue`, for example `gzimbron.vuejs-lang`, disable it. When two plugins claim the same file extension, Orca picks one by its syntax id.
 
@@ -52,7 +52,7 @@ Orca skips scope selectors that contain spaces, such as `source.diff markup.inse
 
 ## Code colors in Orca
 
-Orca reduces every code token to one of 24 token types before a theme colors it, so a theme in Orca has fewer color groups than in VS Code. Monokai Midnight sets these types to the Bearded colors:
+Orca reduces every code token to one of 24 token types before a theme colors it, so a theme in Orca has fewer color groups than in VS Code. Midnight Dev sets these types to the Bearded colors:
 
 | Token type | Color | Examples |
 | --- | --- | --- |
@@ -114,13 +114,13 @@ The script downloads the grammars and language configuration files from one exac
 
 ## What's new in 1.1.0
 
+- New name: **Midnight Dev with Rich Syntax** (before: Monokai Midnight). The plugin id and theme ids do not change, so your settings stay.
 - Full TextMate grammars for Java, Vue, Go, Python, C and C++.
-
 - Colors for tabs, git status in the file explorer, the diff view, links, the current workspace row, split dividers and chat messages (23 new interface tokens).
 - Code colors adjusted for Orca's token types: yellow keywords and operators, neutral names, orange objects and `this`, pink annotations, turquoise regular expressions.
 
 ## License
 
-Monokai Midnight is derived from [Bearded Theme](https://github.com/BeardedBear/bearded-theme) by BeardedBear, licensed under GPL-3.0. It is not an official Bearded Theme release. This theme is also licensed under GPL-3.0.
+Midnight Dev is derived from [Bearded Theme](https://github.com/BeardedBear/bearded-theme) by BeardedBear, licensed under GPL-3.0. It is not an official Bearded Theme release. This theme is also licensed under GPL-3.0.
 
 The grammars in `syntaxes/` keep their own licenses (MIT and the TextMate Bundle License). See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).

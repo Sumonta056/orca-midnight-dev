@@ -1,6 +1,6 @@
 # Third-party notices
 
-Monokai Midnight ships TextMate grammars and language configuration files from the [Visual Studio Code](https://github.com/microsoft/vscode) repository at `4d2fba6576fd008ecfcc06a93378d004460c2473`, and the Vue grammar from [vuejs/language-tools](https://github.com/vuejs/language-tools) at `c59f9908b4912ee20141b53a99b1ce485bff0dc7`.
+Midnight Dev ships TextMate grammars and language configuration files from the [Visual Studio Code](https://github.com/microsoft/vscode) repository at `4d2fba6576fd008ecfcc06a93378d004460c2473`, and the Vue grammar from [vuejs/language-tools](https://github.com/vuejs/language-tools) at `c59f9908b4912ee20141b53a99b1ce485bff0dc7`.
 
 Changes from the original files:
 

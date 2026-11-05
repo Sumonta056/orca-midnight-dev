@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
   "manifestVersion": 2,
   "id": "monokai-midnight",
-  "name": "Monokai Midnight",
+  "name": "Midnight Dev with Rich Syntax",
   "version": "1.1.0",
   "execution": "data",
-  "description": "A dark Monokai theme for Orca, based on Bearded Theme Monokai Reversed, with full TextMate grammars for Java, Vue, Go, Python, C and C++.",
+  "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
   "license": "GPL-3.0",
   "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
   "engines": {
@@ -13,20 +13,20 @@
   },
   "cover": {
     "path": "images/cover.png",
-    "alt": "Monokai Midnight in Orca, showing the sidebar, a TypeScript file in the editor and the terminal"
+    "alt": "Midnight Dev in Orca, showing the sidebar, a TypeScript file in the editor and the terminal"
   },
   "contributes": {
     "themes": [
       {
         "id": "monokai-midnight",
-        "title": "Monokai Midnight",
+        "title": "Midnight Dev",
         "path": "themes/monokai-midnight.json"
       }
     ],
     "terminalThemes": [
       {
         "id": "monokai-midnight",
-        "title": "Monokai Midnight Terminal",
+        "title": "Midnight Dev Terminal",
         "path": "terminal/monokai-midnight.json"
       }
     ],
