@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "monokai-midnight",
+  "name": "Monokai Midnight",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "A dark Monokai app and terminal theme with a deep editor and lighter sidebars, based on Bearded Theme Monokai Reversed.",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Monokai Midnight in Orca, showing the sidebar, a TypeScript file in the editor and the terminal"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "monokai-midnight",
+        "title": "Monokai Midnight",
+        "path": "themes/monokai-midnight.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "monokai-midnight",
+        "title": "Monokai Midnight Terminal",
+        "path": "terminal/monokai-midnight.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
