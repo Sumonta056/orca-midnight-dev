@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "id": "monokai-midnight",
   "name": "Monokai Midnight",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "execution": "data",
   "description": "A dark Monokai app and terminal theme with a deep editor and lighter sidebars, based on Bearded Theme Monokai Reversed.",
   "license": "GPL-3.0",
