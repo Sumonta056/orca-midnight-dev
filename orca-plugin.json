@@ -5,7 +5,7 @@
   "name": "Monokai Midnight",
   "version": "1.1.0",
   "execution": "data",
-  "description": "A dark Monokai app and terminal theme with a deep editor and lighter sidebars, based on Bearded Theme Monokai Reversed.",
+  "description": "A dark Monokai theme for Orca, based on Bearded Theme Monokai Reversed, with full TextMate grammars for Java, Vue, Go, Python, C and C++.",
   "license": "GPL-3.0",
   "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
   "engines": {
@@ -28,6 +28,143 @@
         "id": "monokai-midnight",
         "title": "Monokai Midnight Terminal",
         "path": "terminal/monokai-midnight.json"
+      }
+    ],
+    "syntaxes": [
+      {
+        "id": "java",
+        "title": "Java",
+        "scopeName": "source.java",
+        "path": "syntaxes/java.tmLanguage.json",
+        "configuration": "syntaxes/java.language-configuration.json",
+        "extensions": [
+          ".java"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "go",
+        "title": "Go",
+        "scopeName": "source.go",
+        "path": "syntaxes/go.tmLanguage.json",
+        "configuration": "syntaxes/go.language-configuration.json",
+        "extensions": [
+          ".go"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "python",
+        "title": "Python",
+        "scopeName": "source.python",
+        "path": "syntaxes/python.tmLanguage.json",
+        "configuration": "syntaxes/python.language-configuration.json",
+        "extensions": [
+          ".py",
+          ".pyi",
+          ".pyw"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "regexp-python",
+        "title": "Python Regular Expressions",
+        "scopeName": "source.regexp.python",
+        "path": "syntaxes/regexp-python.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "c",
+        "title": "C",
+        "scopeName": "source.c",
+        "path": "syntaxes/c.tmLanguage.json",
+        "configuration": "syntaxes/cpp.language-configuration.json",
+        "extensions": [
+          ".c"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "cpp",
+        "title": "C++",
+        "scopeName": "source.cpp",
+        "path": "syntaxes/cpp.tmLanguage.json",
+        "configuration": "syntaxes/cpp.language-configuration.json",
+        "extensions": [
+          ".cpp",
+          ".cc",
+          ".cxx",
+          ".c++",
+          ".hpp",
+          ".hh",
+          ".hxx",
+          ".h++",
+          ".h",
+          ".inl",
+          ".ipp",
+          ".tpp"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "cpp-embedded-macro",
+        "title": "C++ Macros",
+        "scopeName": "source.cpp.embedded.macro",
+        "path": "syntaxes/cpp-embedded-macro.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "vue",
+        "title": "Vue",
+        "scopeName": "text.html.vue",
+        "path": "syntaxes/vue.tmLanguage.json",
+        "configuration": "syntaxes/vue.language-configuration.json",
+        "extensions": [
+          ".vue"
+        ],
+        "filenames": []
+      },
+      {
+        "id": "html-vue",
+        "title": "HTML (Vue templates)",
+        "scopeName": "text.html.basic",
+        "path": "syntaxes/html-vue.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "typescript",
+        "title": "TypeScript (embedded)",
+        "scopeName": "source.ts",
+        "path": "syntaxes/typescript.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "javascript",
+        "title": "JavaScript (embedded)",
+        "scopeName": "source.js",
+        "path": "syntaxes/javascript.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "css",
+        "title": "CSS (embedded)",
+        "scopeName": "source.css",
+        "path": "syntaxes/css.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
+      },
+      {
+        "id": "scss",
+        "title": "SCSS (embedded)",
+        "scopeName": "source.css.scss",
+        "path": "syntaxes/scss.tmLanguage.json",
+        "extensions": [],
+        "filenames": []
       }
     ]
   },
