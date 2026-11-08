@@ -112,6 +112,10 @@ The script downloads the grammars and language configuration files from one exac
 3. Adds the Vue interpolation, directive and `class` list rules to the HTML copy.
 4. Renames some scopes (`scripts/remap-scopes.py`). Orca reduces every grammar scope to one of 24 token types before a theme colors it, and a scope without a type falls back to Orca's built-in colors. For example, Java type names such as `String` are `storage.type.java`, and Orca reduces every `storage` scope to `keyword`. The script renames them to `support.type.java`, which Orca reduces to `type`, so types and keywords get different colors.
 
+## What's new in 1.1.1
+
+- A plugin icon: a crescent moon in the six Monokai accent colors. Its source is `images/icon.svg`.
+
 ## What's new in 1.1.0
 
 - New name: **Midnight Dev with Rich Syntax** (before: Monokai Midnight). The plugin id and theme ids do not change, so your settings stay.
